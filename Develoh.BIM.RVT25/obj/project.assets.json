@@ -1,0 +1,142 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0-windows": {
+      "Revit_All_Main_Versions_API_x64/2025.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AdWindows.dll": {},
+          "lib/net8.0/RevitAPI.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          },
+          "lib/net8.0/RevitAPIUI.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          },
+          "lib/net8.0/UIFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/AdWindows.dll": {},
+          "lib/net8.0/RevitAPI.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          },
+          "lib/net8.0/RevitAPIUI.dll": {
+            "related": ".runtimeconfig.json;.xml"
+          },
+          "lib/net8.0/UIFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Revit_All_Main_Versions_API_x64/2025.0.0": {
+      "sha512": "WyY9eYbUmMrv2SV7tAc72no2fT/ZKi57VAvxkScKesB5TSWVCiujYJZqf0/Eoc5QZysNS1dfw9BJjhTMHwo0mg==",
+      "type": "package",
+      "path": "revit_all_main_versions_api_x64/2025.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "ReadMe.txt",
+        "Revit.png",
+        "lib/net8.0/AdWindows.dll",
+        "lib/net8.0/RevitAPI.dll",
+        "lib/net8.0/RevitAPI.runtimeconfig.json",
+        "lib/net8.0/RevitAPI.xml",
+        "lib/net8.0/RevitAPIUI.dll",
+        "lib/net8.0/RevitAPIUI.runtimeconfig.json",
+        "lib/net8.0/RevitAPIUI.xml",
+        "lib/net8.0/UIFramework.dll",
+        "revit_all_main_versions_api_x64.2025.0.0.nupkg.sha512",
+        "revit_all_main_versions_api_x64.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows": [
+      "Revit_All_Main_Versions_API_x64 >= 2025.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gvln\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
+      "projectName": "Develoh.BIM.RVT25",
+      "projectPath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
+      "packagesPath": "C:\\Users\\gvln\\.nuget\\packages\\",
+      "outputPath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gvln\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Revit_All_Main_Versions_API_x64": {
+            "target": "Package",
+            "version": "[2025.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

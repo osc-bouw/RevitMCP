@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <Geometry x:Key="app.LogoIcon">
+        F0 M134.5,0 L200.751,38.25 L200.751,114.75 L134.5,153 L68.2491,114.75 L68.2491,38.25 Z
+    M135,35 L171.373,56 L171.373,98 L135,119 L98.6269,98 L98.6269,56 Z
+    M156.5,240.5 L168,251.5 L221.5,212.5 L206.5,200 L269,178.5 L266,246.5 L252,235.5 L134.5,315 L17,235.5 L3,246.5 L0,178.5 L62.5,200 L47.5,212.5 L101,251.5 L112.5,240.5 L112.5,153 L134.5,165.585 L156.5,153 Z
+    </Geometry>
+</ResourceDictionary>

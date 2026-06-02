@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PApFIhoZbo0=",
+  "success": true,
+  "projectFilePath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gvln\\.nuget\\packages\\revit_all_main_versions_api_x64\\2025.0.0\\revit_all_main_versions_api_x64.2025.0.0.nupkg.sha512",
+    "C:\\Users\\gvln\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

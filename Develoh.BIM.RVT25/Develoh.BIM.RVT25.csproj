@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2025.0.0" />
+  </ItemGroup>
+
+  <Target Name="CopyToRevitAddins" AfterTargets="Build">
+    <Copy 
+      SourceFiles="$(TargetPath)" 
+      DestinationFolder="C:\ProgramData\Autodesk\Revit\Addins\2025\VanDerBlij\" 
+      SkipUnchangedFiles="true" 
+      OverwriteReadOnlyFiles="true" />
+  </Target>
+
+</Project>

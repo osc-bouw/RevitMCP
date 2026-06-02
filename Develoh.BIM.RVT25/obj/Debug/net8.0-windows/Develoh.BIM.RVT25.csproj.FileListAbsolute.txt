@@ -1,0 +1,13 @@
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\bin\Debug\net8.0-windows\Develoh.BIM.RVT25.deps.json
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\bin\Debug\net8.0-windows\Develoh.BIM.RVT25.dll
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\bin\Debug\net8.0-windows\Develoh.BIM.RVT25.pdb
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.csproj.AssemblyReference.cache
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.GeneratedMSBuildEditorConfig.editorconfig
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.AssemblyInfoInputs.cache
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.AssemblyInfo.cs
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.csproj.CoreCompileInputs.cache
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.sourcelink.json
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.dll
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\refint\Develoh.BIM.RVT25.dll
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\Develoh.BIM.RVT25.pdb
+C:\sourcePlus\RevitMCP\Develoh.BIM.RVT25\obj\Debug\net8.0-windows\ref\Develoh.BIM.RVT25.dll

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Develoh - Tools</Name>
+    <Assembly>RevitMcp.Plugin.dll</Assembly>
+    <AddInId>1cc0a379-563f-4e7b-abc3-0cde08fb2901</AddInId>
+    <FullClassName>SSW_Tools_Revit.App</FullClassName>
+    <VendorId>Gerrit van Lohuizen</VendorId>
+    <VendorDescription>Develoh</VendorDescription>
+  </AddIn>
+</RevitAddIns>
