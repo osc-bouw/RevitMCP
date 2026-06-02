@@ -10,7 +10,8 @@
         "dependencies": {
           "Develoh.BIM.RVT25": "1.0.0",
           "RevitMcp.Contracts": "1.0.0",
-          "Revit_All_Main_Versions_API_x64": "2025.0.0"
+          "Revit_All_Main_Versions_API_x64": "2025.0.0",
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
           "RevitMcp.Plugin.dll": {}
@@ -36,6 +37,7 @@
           }
         }
       },
+      "System.Text.Json/8.0.5": {},
       "Develoh.BIM.RVT25/1.0.0": {
         "dependencies": {
           "Revit_All_Main_Versions_API_x64": "2025.0.0"
@@ -69,6 +71,13 @@
       "sha512": "sha512-WyY9eYbUmMrv2SV7tAc72no2fT/ZKi57VAvxkScKesB5TSWVCiujYJZqf0/Eoc5QZysNS1dfw9BJjhTMHwo0mg==",
       "path": "revit_all_main_versions_api_x64/2025.0.0",
       "hashPath": "revit_all_main_versions_api_x64.2025.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "Develoh.BIM.RVT25/1.0.0": {
       "type": "project",

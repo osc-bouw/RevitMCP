@@ -20,19 +20,16 @@ namespace RevitMcp.Plugin.Tools
         public McpToolDefinition GetDefinition() => new McpToolDefinition
         {
             Name        = "PlaceBeam",
-            Description = "Places a beam in Revit between two coordinates.",
+            Description = "Places a beam in Revit between two XYZ coordinates. Requires familySymbolId from a Structural Framing family symbol. Call ListFamilies first to find available Structural Framing symbols.",
             InputSchema = new
             {
                 type     = "object",
-                required = new[] { "start", "end", "profile" },
+                required = new[] { "start", "end", "familySymbolId" },
                 properties = new
                 {
-                    start    = new { type = "object", properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
-                    end      = new { type = "object", properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
-                    profile  = new { type = "string" },
-                    material = new { type = "string" },
-                    @class   = new { type = "integer" },
-                    name     = new { type = "string" }
+                    start = new { type = "object", required = new[] { "x", "y", "z" }, properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
+                    end = new { type = "object", required = new[] { "x", "y", "z" }, properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
+                    familySymbolId = new { type = "integer", description = "FamilySymbol id from ListFamilies where category is Structural Framing." }
                 }
             }
         };
@@ -60,9 +57,6 @@ namespace RevitMcp.Plugin.Tools
 
         private static void Validate(PlaceBeamArgs args)
         {
-            if (string.IsNullOrWhiteSpace(args.Profile))
-                throw new ArgumentException("profile is required and must not be empty.");
-
             var s = args.Start;
             var e = args.End;
             if (s.X == e.X && s.Y == e.Y && s.Z == e.Z)

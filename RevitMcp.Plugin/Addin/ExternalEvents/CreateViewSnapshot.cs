@@ -39,14 +39,14 @@ namespace RevitMcp.Plugin.Addin.ExternalEvents
                     FitDirection          = FitDirectionType.Horizontal,
                     PixelSize             = input.WidthPx > 0 ? input.WidthPx : 1920,
                     ImageResolution       = ImageResolution.DPI_150,
-                    ExportRange           = ExportRange.CurrentView,
-                    HLRandWFViewsFileType = ImageFileType.PNG
+                    ExportRange           = ExportRange.VisibleRegionOfCurrentView,
+                    HLRandWFViewsFileType = ImageFileType.JPEGMedium
                 };
                 exportOpts.SetViewsAndSheets(new List<ElementId> { view.Id });
 
                 doc.ExportImage(exportOpts);
 
-                var pngFiles = Directory.GetFiles(tempDir, "*.png");
+                var pngFiles = Directory.GetFiles(tempDir, "*.jpg");
                 if (pngFiles.Length == 0)
                 {
                     result = new CreateViewSnapshotResult { Success = false, Message = "Export produced no PNG file." };
@@ -60,7 +60,7 @@ namespace RevitMcp.Plugin.Addin.ExternalEvents
                     Success     = true,
                     Message     = $"Snapshot of view '{view.Name}' captured ({bytes.Length} bytes).",
                     Base64Image = Convert.ToBase64String(bytes),
-                    MimeType    = "image/png"
+                    MimeType    = "image/jpg"
                 };
             }
             catch (Exception ex)

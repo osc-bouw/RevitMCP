@@ -20,19 +20,16 @@ namespace RevitMcp.Plugin.Tools
         public McpToolDefinition GetDefinition() => new McpToolDefinition
         {
             Name        = "PlaceColumn",
-            Description = "Places a column in Revit at a base coordinate with a height.",
+            Description = "Places a column in Revit at one XYZ base coordinate with a height. Requires familySymbolId from a Structural Columns or Architectural Columns family symbol. Call ListFamilies first to find available column symbols.",
             InputSchema = new
             {
                 type     = "object",
-                required = new[] { "base", "height", "profile" },
+                required = new[] { "base", "height", "familySymbolId" },
                 properties = new
                 {
-                    @base    = new { type = "object", properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
-                    height   = new { type = "number" },
-                    profile  = new { type = "string" },
-                    material = new { type = "string" },
-                    @class   = new { type = "integer" },
-                    name     = new { type = "string" }
+                    @base = new { type = "object", required = new[] { "x", "y", "z" }, properties = new { x = new { type = "number" }, y = new { type = "number" }, z = new { type = "number" } } },
+                    height = new { type = "number" },
+                    familySymbolId = new { type = "integer", description = "FamilySymbol id from ListFamilies where category is Structural Columns or Architectural Columns." }
                 }
             }
         };
@@ -41,6 +38,8 @@ namespace RevitMcp.Plugin.Tools
         {
             var args = body.Deserialize<PlaceColumnArgs>(JsonOpts) ??
                        throw new ArgumentException("Invalid PlaceColumn arguments.");
+
+            Validate(args);
 
             PlaceColumnResult result;
             try
@@ -54,6 +53,12 @@ namespace RevitMcp.Plugin.Tools
 
             McpAuditLog.Write("PlaceColumn", args, result.Success, result.Guid, result.Message);
             return result;
+        }
+
+        private static void Validate(PlaceColumnArgs args)
+        {
+            if (args.Height <= 0)
+                throw new ArgumentException("height must be greater than 0.");
         }
     }
 }

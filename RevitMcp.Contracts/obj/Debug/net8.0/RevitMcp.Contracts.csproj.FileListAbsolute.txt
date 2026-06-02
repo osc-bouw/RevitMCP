@@ -21,3 +21,15 @@ C:\sourcePlus\RevitMCP\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.dl
 C:\sourcePlus\RevitMCP\RevitMcp.Contracts\obj\Debug\net8.0\refint\RevitMcp.Contracts.dll
 C:\sourcePlus\RevitMCP\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.pdb
 C:\sourcePlus\RevitMCP\RevitMcp.Contracts\obj\Debug\net8.0\ref\RevitMcp.Contracts.dll
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\bin\Debug\net8.0\RevitMcp.Contracts.deps.json
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\bin\Debug\net8.0\RevitMcp.Contracts.dll
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\bin\Debug\net8.0\RevitMcp.Contracts.pdb
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.AssemblyInfoInputs.cache
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.AssemblyInfo.cs
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.csproj.CoreCompileInputs.cache
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.sourcelink.json
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.dll
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\refint\RevitMcp.Contracts.dll
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\RevitMcp.Contracts.pdb
+C:\sourcePlus\RevitMCP_os\RevitMcp.Contracts\obj\Debug\net8.0\ref\RevitMcp.Contracts.dll

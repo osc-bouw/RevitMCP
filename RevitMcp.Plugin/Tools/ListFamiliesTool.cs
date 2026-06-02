@@ -14,7 +14,7 @@ namespace RevitMcp.Plugin.Tools
         public McpToolDefinition GetDefinition() => new McpToolDefinition
         {
             Name        = "ListFamilies",
-            Description = "Returns all loaded families in the Revit model with their id, name, category, and type count.",
+            Description = "Returns all loaded families in the Revit model with their id, name, category, type count, and FamilySymbol ids. Use Structural Framing symbols for PlaceBeam and Structural Columns or Architectural Columns symbols for PlaceColumn.",
             InputSchema = new { type = "object", properties = new { } }
         };
 

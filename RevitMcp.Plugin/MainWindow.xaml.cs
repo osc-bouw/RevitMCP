@@ -17,8 +17,15 @@ namespace RevitMcp.Plugin
             // Auto-scroll log to bottom when new entries arrive
             ((INotifyCollectionChanged)_vm.LogEntries).CollectionChanged += (_, _) =>
             {
-                if (LogList.Items.Count > 0)
-                    LogList.ScrollIntoView(LogList.Items[LogList.Items.Count - 1]);
+                try
+                {
+                    if (LogList.Items.Count > 0)
+                        LogList.ScrollIntoView(LogList.Items[LogList.Items.Count - 1]);
+                }
+                catch
+                {
+
+                }
             };
         }
 

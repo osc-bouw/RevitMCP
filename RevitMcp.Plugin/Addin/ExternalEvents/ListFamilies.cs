@@ -24,7 +24,17 @@ namespace RevitMcp.Plugin.Addin.ExternalEvents
                     Id        = (int)f.Id.Value,
                     Name      = f.Name,
                     Category  = f.FamilyCategory?.Name,
-                    TypeCount = f.GetFamilySymbolIds().Count
+                    TypeCount = f.GetFamilySymbolIds().Count,
+                    Symbols   = f.GetFamilySymbolIds()
+                        .Select(id => doc.GetElement(id) as FamilySymbol)
+                        .Where(symbol => symbol != null)
+                        .Select(symbol => new FamilySymbolDto
+                        {
+                            Id   = symbol!.Id.Value,
+                            Name = symbol.Name
+                        })
+                        .OrderBy(symbol => symbol.Name)
+                        .ToList()
                 })
                 .OrderBy(f => f.Category).ThenBy(f => f.Name)
                 .ToList();

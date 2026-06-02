@@ -23,6 +23,8 @@ namespace RevitMcp.Plugin
         public static UIApplication? uiapp { get; set; }
 
         // Existing events
+        public static ExternalEvent? PlaceBeamEvent;
+        public static ExternalEvent? PlaceColumnEvent;
         public static ExternalEvent? GetColumnFamiliesEvent;
         public static ExternalEvent? GetModelSummaryEvent;
 
@@ -60,6 +62,8 @@ namespace RevitMcp.Plugin
 
         private void RegisterExternalEvent()
         {
+            PlaceBeamEvent            = ExternalEvent.Create(new PlaceBeam());
+            PlaceColumnEvent          = ExternalEvent.Create(new PlaceColumn());
             GetColumnFamiliesEvent    = ExternalEvent.Create(new GetColumnFamilies());
             GetModelSummaryEvent      = ExternalEvent.Create(new GetModelSummary());
 

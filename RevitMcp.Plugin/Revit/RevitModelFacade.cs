@@ -19,24 +19,22 @@ namespace RevitMcp.Plugin.Revit
 
         public PlaceBeamResult InsertBeam(PlaceBeamArgs args)
         {
-            return new PlaceBeamResult
-            {
-                Success  = true,
-                Guid     = Guid.NewGuid().ToString(),
-                ObjectId = 12345,
-                Message  = "Revit Beam insertion placeholder successful."
-            };
+            EE.PlaceBeam.args = args;
+            EE.PlaceBeam.result = null;
+            DrainSemaphore(EE.PlaceBeam.Completed);
+            App.PlaceBeamEvent!.Raise();
+            EE.PlaceBeam.Completed.Wait(TimeSpan.FromSeconds(15));
+            return EE.PlaceBeam.result ?? new PlaceBeamResult { Success = false, Message = "Timeout waiting for Revit." };
         }
 
         public PlaceColumnResult InsertColumn(PlaceColumnArgs args)
         {
-            return new PlaceColumnResult
-            {
-                Success  = true,
-                Guid     = Guid.NewGuid().ToString(),
-                ObjectId = 67890,
-                Message  = "Revit Column insertion placeholder successful."
-            };
+            EE.PlaceColumn.args = args;
+            EE.PlaceColumn.result = null;
+            DrainSemaphore(EE.PlaceColumn.Completed);
+            App.PlaceColumnEvent!.Raise();
+            EE.PlaceColumn.Completed.Wait(TimeSpan.FromSeconds(15));
+            return EE.PlaceColumn.result ?? new PlaceColumnResult { Success = false, Message = "Timeout waiting for Revit." };
         }
 
         public GetColumnFamiliesResult GetColumnFamilyList()
