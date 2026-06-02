@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45sLYN/DU5k=",
+  "dgSpecHash": "1/Ze9eqyhAY=",
   "success": true,
-  "projectFilePath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
+  "projectFilePath": "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gvln\\.nuget\\packages\\revit_all_main_versions_api_x64\\2025.0.0\\revit_all_main_versions_api_x64.2025.0.0.nupkg.sha512"
   ],

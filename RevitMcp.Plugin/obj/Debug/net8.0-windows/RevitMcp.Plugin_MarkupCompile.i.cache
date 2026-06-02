@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\sourcePlus\RevitMCP\RevitMcp.Plugin\obj\Debug\net8.0-windows\
+C:\sourcePlus\RevitMCP_os\RevitMcp.Plugin\obj\Debug\net8.0-windows\
 RevitMcp.Plugin
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 11407045341
 
 331865434433
-204-616909545
+204486310552
 MainWindow.xaml;
 
 False

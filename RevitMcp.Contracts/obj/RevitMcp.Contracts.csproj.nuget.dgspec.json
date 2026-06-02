@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {}
+    "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
+    "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
+        "projectUniqueName": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
         "projectName": "RevitMcp.Contracts",
-        "projectPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
+        "projectPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
         "packagesPath": "C:\\Users\\gvln\\.nuget\\packages\\",
-        "outputPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\obj\\",
+        "outputPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,7 +31,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -46,11 +45,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -68,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

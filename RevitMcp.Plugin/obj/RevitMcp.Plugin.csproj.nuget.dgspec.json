@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj": {}
+    "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj": {}
   },
   "projects": {
-    "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj": {
+    "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
+        "projectUniqueName": "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
         "projectName": "Develoh.BIM.RVT25",
-        "projectPath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
+        "projectPath": "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj",
         "packagesPath": "C:\\Users\\gvln\\.nuget\\packages\\",
-        "outputPath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\obj\\",
+        "outputPath": "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,8 +30,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows": {
-            "framework": "net8.0-windows7.0",
+          "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
@@ -46,11 +45,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0-windows": {
-          "framework": "net8.0-windows7.0",
+        "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
             "Revit_All_Main_Versions_API_x64": {
@@ -77,18 +75,18 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
+    "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
+        "projectUniqueName": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
         "projectName": "RevitMcp.Contracts",
-        "projectPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
+        "projectPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj",
         "packagesPath": "C:\\Users\\gvln\\.nuget\\packages\\",
-        "outputPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\obj\\",
+        "outputPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,7 +106,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -123,11 +120,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -145,18 +141,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj": {
+    "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj",
+        "projectUniqueName": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj",
         "projectName": "RevitMcp.Plugin",
-        "projectPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj",
+        "projectPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Plugin\\RevitMcp.Plugin.csproj",
         "packagesPath": "C:\\Users\\gvln\\.nuget\\packages\\",
-        "outputPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Plugin\\obj\\",
+        "outputPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Plugin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,15 +171,14 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows": {
-            "framework": "net8.0-windows7.0",
+          "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj": {
-                "projectPath": "C:\\sourcePlus\\RevitMCP\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj"
+              "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj": {
+                "projectPath": "C:\\sourcePlus\\RevitMCP_os\\Develoh.BIM.RVT25\\Develoh.BIM.RVT25.csproj"
               },
-              "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
-                "projectPath": "C:\\sourcePlus\\RevitMCP\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj"
+              "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj": {
+                "projectPath": "C:\\sourcePlus\\RevitMCP_os\\RevitMcp.Contracts\\RevitMcp.Contracts.csproj"
               }
             }
           }
@@ -198,11 +193,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0-windows": {
-          "framework": "net8.0-windows7.0",
+        "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
             "Revit_All_Main_Versions_API_x64": {
@@ -233,7 +227,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
